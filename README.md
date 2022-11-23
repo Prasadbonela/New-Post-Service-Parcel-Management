@@ -1,4 +1,4 @@
-# Exercise 1: New Post service. Parcel Management
+# New Post service. Parcel Management
  
 The purpose of this exercise is to apply existing sorting and searching algorithms to a list.  
 
@@ -34,6 +34,6 @@ sorting parcels can use the `sort()` method of the `List` interface or the `Coll
 * The `getDescSortedBoxesByWeight` and `getAscSortedBoxesByCost` methods create the resulting string in the form "parcel\n".  
 * The `getBoxesByRecipient` method implementation **must not allow `null` values**. In such cases, the `java.lang.NullPointerException` is thrown.
 
-### Restrictions
+## Restrictions
 
 You may not use lambdas or streams to complete this task.
