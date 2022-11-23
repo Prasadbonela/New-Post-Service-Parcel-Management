@@ -26,19 +26,14 @@ The `NewPostOfficeManagement` interface has several methods for searching and so
 Now, please proceed to the `NewPostOfficeManagementImpl` class, which implementsthe  `NewPostOfficeManagement` interface.
 
 ### Details:
-* The `getById` and `getBoxesByRecipient` methods for searching for parcels 
-must use the `binarySearch()` method of the `Collections` class.
-* The `getBoxesByRecipient` method returns an empty collection if there are 
-no parcels to the specified recipient. \
-  **_Note_** that before searching, parcels must be sorted by required criteria.
+* The `getById` and `getBoxesByRecipient` methods for searching for parcels must use the `binarySearch()` method of the `Collections` class.  
+* The `getBoxesByRecipient` method returns an empty collection if there are no parcels to the specified recipient. \
+  **_Note_** that before searching, parcels must be sorted based on the required criteria.
 * The `getDescSortedBoxesByWeight` and `getAscSortedBoxesByCost` methods for 
-sorting parcels can use the `sort()` method of the `List` interface or the 
-`Collections` class with an appropriate `Comparator`.
-* The `getDescSortedBoxesByWeight` and `getAscSortedBoxesByCost` methods creates 
-the resulting string in the form "`parcel\n`".
-* The `getBoxesByRecipient` method implementation **must not allow `null` values**. 
-In such cases, the `java.lang.NullPointerException` is thrown.
+sorting parcels can use the `sort()` method of the `List` interface or the `Collections` class with an appropriate `Comparator`.
+* The `getDescSortedBoxesByWeight` and `getAscSortedBoxesByCost` methods create the resulting string in the form "parcel\n".  
+* The `getBoxesByRecipient` method implementation **must not allow `null` values**. In such cases, the `java.lang.NullPointerException` is thrown.
 
 ### Restrictions
 
-You may not use lambdas or streams while doing this task.
+You may not use lambdas or streams to complete this task.
