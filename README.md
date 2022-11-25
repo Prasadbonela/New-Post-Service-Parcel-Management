@@ -1,4 +1,4 @@
-# New Post service. Parcel Management
+# New Post Service. Parcel Management
  
 The purpose of this exercise is to apply existing sorting and searching algorithms to a list.  
 
@@ -23,7 +23,7 @@ The `NewPostOfficeManagement` interface has several methods for searching and so
 * `List<Box> getBoxesByRecipient(String recipient)` \
   Gets all parcels of the specified recipient
 
-Now, please proceed to the `NewPostOfficeManagementImpl` class, which implementsthe  `NewPostOfficeManagement` interface.
+Now, please proceed to the `NewPostOfficeManagementImpl` class, which implements the  `NewPostOfficeManagement` interface.
 
 ### Details:
 * The `getById` and `getBoxesByRecipient` methods for searching for parcels must use the `binarySearch()` method of the `Collections` class.  
